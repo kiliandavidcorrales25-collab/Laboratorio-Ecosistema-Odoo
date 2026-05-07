@@ -18,8 +18,8 @@ CSV para poder posteriormente importarlo a odo con su herramienta de importació
 | Innovaciones Web | dev@innovaciones.es | +34 698 765 432 | Granada | España | True |
 | Elena Torres | etorres.design@ejemplo.com | +34 633 222 111 | Alicante | España | False |
 
-c. Para realizar en la importación del archivo CSV entramos a odo y vamos a  Ventas > Pedidos > Clientes, dentro le daremos a importar y subimos el archivo, 
-luego se Pulsa el botón "Test" (para validar que el tipo de dato coincide con la base de datos) y si funciona saldra el boton de importar subiendo todos los datos	
+c. Para realizar en la importación del archivo CSV entramos a odo y vamos a **Ventas > Pedidos > Clientes**, dentro le daremos a importar y subimos el archivo, 
+luego se Pulsa el botón **"Test" (para validar que el tipo de dato coincide con la base de datos)** y si funciona saldra el boton de importar subiendo todos los datos	
 
 d. Luego crearemos un presupuesto con un usuario comercial, y crearemos/añadiremos un producto que se pueda almacenar, 
 cuando lo confirmamos pasará a estado de para poder entregarlo y tendremos que pasar a la cuenta de administrador para poder validar y enviar el producto
@@ -28,3 +28,10 @@ e. Una vez el producto haya sido validado y enviado volveremos al presupuesto y 
 de **Crear Factura**, dentro seguiremos la política de odo y la enviaremos como **"Factura normal"** confirmamos y enviamos, y terminaremos la factura
 
 <img width="1858" height="715" alt="image" src="https://github.com/user-attachments/assets/28562af9-07fa-4655-8ec3-60c44b5fdc94" />
+
+# Fase 2: Informes
+
+a. Nos piden generarle que los PDF, lleve puestos una marca roja para la proteccion de datos, para ellos modifcarmeos la plantilla XML, para hacer esto Odoo usa un sistema de **"Herencia de vistas"** basado en XPath. Con el Modo Desarrollador
+iremos a **Ajustes > Técnico > Interfaz de Usuario > Vistas (Views).**
+
+b. 
